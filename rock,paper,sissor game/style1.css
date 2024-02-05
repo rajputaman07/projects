@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 10rem;
+  background: rgba(237, 232, 236, 0.5);
+}
+
+button {
+  border: 0;
+  height: 10rem;
+  width: 10rem;
+  background-color: lightcoral;
+  font-style: oblique;
+  font-size: 20px;
+  border-radius: 100%;
+  margin-top: 10%;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 85%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  background-image: url("/images/sn-rockpaper.jpg");
+  height: 729px;
+  width: 100%;
+  background-size: cover;
+}
